@@ -1,0 +1,10 @@
+html, body, .container-main{
+	height: 100%;
+}
+
+.main{
+  height: 20%;
+  background-color: #333333;
+  color: white;
+
+}
