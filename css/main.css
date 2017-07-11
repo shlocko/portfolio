@@ -1,4 +1,4 @@
-html, body, .container-main{
+html, body, .container-main, .container-bio{
 	height: 100%;
 }
 
@@ -11,17 +11,43 @@ html, body, .container-main{
 .main-big{
 	height: 60%;
 	background-color: #333333;
-	border: 1px solid black;
-}
-#test{
-	border: 1px solid black;
-	height: 500px;
-	width: 500px;
-	z-index: 6;
 	
 }
-
-
+.container-bio{
+	background-color: #404040;
+	
+}
+.container-bio .container{
+	border: 1px solid black;
+	height: 96%;
+	border-radius: 30px;
+	margin-top: 1%;
+	background-color: #333333;
+	
+}
+.bio{
+	height: 25%;
+	
+}
+.divider{
+	height: 100%;
+	
+}
+.test4{
+	background-color: #404040;
+	height: 100%;
+	border-radius: 20px;
+	margin-bottom:3%;
+	
+}
+.test6{
+	background-color: #404040;
+	height: 48%;
+	margin-bottom: 3%;
+	border-radius: 20px;
+	font-size: 2em;
+	
+}
 
 
 
