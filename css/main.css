@@ -1,0 +1,98 @@
+html, body, .container-main, .container-bio{
+	height: 100%;
+}
+
+.main{
+  height: 20%;
+  background-color: #333333;
+  color: white;
+
+}
+.main-big{
+	height: 60%;
+	background-color: #333333;
+	
+}
+.container-bio{
+	background-color: #404040;
+	
+}
+.container-bio .container{
+	border: 1px solid black;
+	height: 96%;
+	border-radius: 30px;
+	margin-top: 1%;
+	background-color: #333333;
+	
+}
+.bio{
+	height: 25%;
+	
+}
+.divider{
+	height: 100%;
+	
+}
+.test4{
+	background-color: #404040;
+	height: 100%;
+	border-radius: 20px;
+	margin-bottom:3%;
+	
+}
+.test6{
+	background-color: #404040;
+	height: 48%;
+	margin-bottom: 3%;
+	border-radius: 20px;
+	font-size: 2em;
+	
+}
+
+
+
+
+
+
+
+#row-nav{
+	z-index: 7;
+}
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(119, 119, 119, 1);
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 14px;
+    background-color: rgba(51, 51, 51, 1);
+    border-width: 0px;
+    border-radius: 0px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(119, 119, 119, 1);
+    background-color: rgba(248, 248, 248, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: #cccccc;
+    /*background-color: #595959;*/
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(85, 85, 85, 1);
+    /*background-color: rgba(231, 231, 231, 1);*/
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #ddd;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #ddd;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #1a1a1a;
+}
